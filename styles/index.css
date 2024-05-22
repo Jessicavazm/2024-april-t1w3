@@ -29,3 +29,15 @@ header {
 .academy-text {
     color: #1c3c5c;
 }
+
+#nav-items {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    
+}
+
+#nav-items a {
+    text-decoration: none;
+}
