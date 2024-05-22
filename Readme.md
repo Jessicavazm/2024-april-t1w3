@@ -6,3 +6,6 @@
 
 ### Header
 The header component has a logo and name of the company along with the navigation bar. The navigation bar has links to navigate to different pages.
+
+### Footer
+The footer component has social media links and infomation about the company such as contact number and address.
