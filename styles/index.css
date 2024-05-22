@@ -48,6 +48,20 @@ header {
     text-decoration: none;
 }
 
+@media screen and (min-width: 600px) {
+    header {
+        display:flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
+    #nav-items {
+        width: 50%;
+        justify-content: space-between;
+    }
+    
+}
+
 footer {
     background-color: var(--primary-color);
     text-align: center;
