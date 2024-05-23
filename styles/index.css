@@ -48,20 +48,6 @@ header {
     text-decoration: none;
 }
 
-@media screen and (min-width: 600px) {
-    header {
-        display:flex;
-        align-items: flex-end;
-        justify-content: space-between;
-    }
-
-    #nav-items {
-        width: 50%;
-        justify-content: space-between;
-    }
-    
-}
-
 footer {
     background-color: var(--primary-color);
     text-align: center;
@@ -85,4 +71,30 @@ footer {
 
 .info p {
     margin: 5px 0;
+}
+
+@media screen and (min-width: 600px) {
+    header {
+        display:flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    
+    .name {
+        margin: 0%;
+    }
+
+    #nav-items {
+        width: 50%;
+        justify-content: space-between;
+    }
+   
+    .social-media {
+        width: 50%;
+       margin-right: auto; 
+        margin-left: auto; 
+       
+    }
+
+    
 }
